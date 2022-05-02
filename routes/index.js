@@ -11,6 +11,19 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
+
+
+/* GET travel page. */
+router.get('/travel-page', function(req, res, next) {
+  res.render('travel'); // this references a view / ejs file
+});
+
+
+
+
+
+
+
 /* GET hello page. */
 router.get('/hello', function(req, res, next) {
   console.log("URL PARAMS:", req.query)
